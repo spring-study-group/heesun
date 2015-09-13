@@ -1,4 +1,4 @@
-package com.springstudy.myapp;
+package com.springstudy.myapp.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -31,7 +31,7 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 		
-		model.addAttribute("serverTime", formattedDate );
+		model.addAttribute("serverTime", formattedDate + "¾å¾å¾å" );
 		
 		return "home";
 	}
